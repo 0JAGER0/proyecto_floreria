@@ -52,7 +52,9 @@ button {
 
 button:focus {outline: none;}
 
-iframe {border: none;}
+iframe {border: none;
+	text-align: center;
+	max-width: 100%;}
 
 
 /*//////////////////////////////////////////////////////////////////
