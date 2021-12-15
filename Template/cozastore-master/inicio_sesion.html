@@ -232,14 +232,37 @@
 
 
     <!-- Title page -->
-<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/tu_decora_imagenes/IMG_20210720_134017.jpg');">
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/tu_decora_imagenes/inicio_sesiones_foto.jpg');">
     <h2 class="ltext-105 cl0 txt-center">
         Inicia Sesión
     </h2>
 </section>	
 
-
-
+<div class="container">
+    <form class="form" method="post" id="registro">
+        
+        <h4>  Iniciar sesion   </h4>
+    
+        <div>
+        <label for="id_username">Nombre de usuario: </label> 
+        <input type="text" name="username" autofocus="" autocapitalize="none" autocomplete="username" maxlength="150" required="" id="id_username">
+        </div>
+    
+        <div>
+        <label for="id_password">Contraseña: </label>
+        <input type="password" name="password" autocomplete="current-password" required="" id="id_password">
+        </div>
+    
+    
+        <div>
+            <input type="submit" class="btn btn-light" id="enviar" value="Enviar">
+        </div>
+        <hr>
+        <a href="#"  id="lost_contra">¿Perdio su Contraseña?</a>
+        <br>
+        <a href="registro.html" id="sin_cuenta" >¿No tiene una cuenta?</a>
+    </form> 
+</div>
 		
 
 <!-- Footer -->

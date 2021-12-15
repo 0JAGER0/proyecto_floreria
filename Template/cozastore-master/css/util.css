@@ -44,7 +44,7 @@ input, textarea, label {
 
 /*---------------------------------------------*/
 button {
-	outline: none;
+	outline: none; 
 	border: none;
 	background: transparent;
 	cursor: pointer;
