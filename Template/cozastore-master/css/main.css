@@ -261,7 +261,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .topbar-mobile li {
   padding: 8px 20px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  background-color: rgb(255, 255, 255);
+  background-color: #6c7ae0;
 }
 
 
@@ -3333,32 +3333,33 @@ input.num-product::-webkit-inner-spin-button {
 
 }
 /* CSS DE REGISTRO */
-body{
-  background-image: url("https://cdn.kiwilimon.com/articuloimagen/16907/16908.jpg");
-  background-size: cover ;
-  font-family: sans-serif;
-  height: 100px; 
-  max-width: 100%;
-  background-attachment: fixed;
-}
 
-#formularioXD{
-  margin: 10%;
-  }
-  
 
-.img{
-  max-width: 150%;
-}
 
-.form{
+
+#inicio_sesion{
   width: 450px;
   background: #30a15b;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: 'lobster', cursive;
+  font-family: Poppins-Bold;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  padding-bottom: 100px;
+	max-width: 100%;
+
+}
+
+#registro{
+  width: 450px;
+  background: #6c7ae0;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: Poppins-Bold;
   color: white;
   box-shadow: 7px 13px 37px #000;
   padding-bottom: 100px;
@@ -3367,23 +3368,9 @@ body{
 }
 
 
-
 .form h4 {
   font-size: 22px;
   margin-bottom: 20px;
-  
-}
-
-.controls {
-  width: 100%;
-  background: #30a15b;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #000000;
-  font-family: 'lobster';
-  font-size: 18px;
-  color: white;
   
 }
 
@@ -3393,55 +3380,17 @@ body{
   padding: 0;
   font-weight: bold;
   display: block;
-  font-family: 'Lobster', cursive;
+  font-family: Poppins-Bold;
 }
 
 .form input{
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.form p{
-height: 10px;
-text-align:  left;
-font-size: 14px;
-font-family: 'Electrolize', sans-serif;}
-
-.form a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  
-}
-
-.form .botons {
-  width: 100%;
-  background: #30a15b;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-  
-}
-
-.form input[type="submit"]:hover{
-  transform: scale(0.95);
-  
-}
-
-.tabla_registro{
-  margin-top: 100px;
-}
 
 
-#TITULOH1{
-  font-family: 'Great Vibes', cursive;
-  text-align: center;
-  color: whitesmoke;
-  font-size: 65px;
-  
-}
 
 
 
@@ -3454,76 +3403,8 @@ font-family: 'Electrolize', sans-serif;}
   color: #ffffff;
 }
 
-#TITULO{
-  font-family: 'Lobster', cursive;
-  font-size: 40px;
-  
-}
-/* link contacto*/
-
-
-#link_iniciar_sesion{
-  font-family: 'Cabin', sans-serif;
-  
-}
-
-#link_registro{
-  font-family: 'Cabin', sans-serif;
-  
-}
-/*LETRA BOTON INICIO SESION*/
-#letra_inicio{
-  color:white;
-  font-family: 'lobster', cursive;
-  
-}
-/* LETRA REGISTRO BOTON*/
-#letra_registro{
-  color: white;
-  font-family: 'lobster', cursive;
-  margin-right: 180px;
-;
-
-}    
-/*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
-/*y centre un poco el titulo que pusiste , el color cambialo si sientes que esta poco visible pero era una prueba nada mas*/
-#TITULOH1{
-  font-family: 'Great Vibes', cursive;
-  text-align: center;
-  color: whitesmoke;
-  font-size: 65px;
-  
-}
-
-#logo{
-  margin-right: 10px;
-}
-
-ul{
-  font-family: 'lobster', cursive;
-  margin-left: 40px;
-  font-size: 24px;
-}
-
-form{
-  font-family: 'lobster';
-}
-
-.clear{clear:both;}
-
-.separar{
-  margin-right: 10px;
-  
-}
-
-form .error{
-  color: #ff0000;
-  font-family: 'Roboto', sans-serif;
-}
-
-@media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }
 
 label{
   color: rgb(0, 0, 0);
-  font-family: 'lobster';
+  font-family: Poppins-Bold;
 }
